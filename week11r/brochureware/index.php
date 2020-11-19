@@ -7,7 +7,6 @@ $page_title = "Home Page";
 <head>
   <?php include("includes/partials/head.php"); ?>
 </head>
-
 <body>
 	<div id="wrapper">
       <?php include("includes/partials/header.php"); ?>
