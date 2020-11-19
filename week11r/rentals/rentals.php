@@ -1,6 +1,39 @@
 <?php
 include('includes/config.php');
 
+// *******************
+// Fetch all
+// GET '/vehicles/'
+//********************
+
+// write query for all vehicles
+$sql = 'SELECT * FROM vehicle ORDER BY model';
+
+// get the result set (set of rows)
+$result = mysqli_query($conn, $sql);
+
+// fetch the resulting rows as an array
+$vehicles = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+var_dump($vehicles);
+
+
+// *******************
+// Fetch one
+// GET '/vehicles/:id'
+//********************
+
+// write query for all vehicles
+$sql = 'SELECT * FROM vehicle WHERE id = 1';
+
+// get the result set (set of rows)
+$result = mysqli_query($conn, $sql);
+
+// fetch the resulting rows as an array
+$vehicle = mysqli_fetch_row($result);
+
+var_dump($vehicle);
+
 ?>
 <!doctype html>
 <html>

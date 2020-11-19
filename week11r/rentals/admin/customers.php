@@ -1,3 +1,8 @@
+<?php
+
+// Customers query here
+
+?>
 <!doctype html>
 <html>
 <head>
