@@ -1,0 +1,77 @@
+body{
+	background-color:aqua;
+}
+
+#wrapper{
+	font-family:"Trebuchet MS",Trebuchet,Arial,Helvetica,sans-serif;
+	width:80%;
+	margin:0 auto;
+	border:3px solid black;
+	background-color:white;
+}
+
+h1{
+	margin:0;
+	padding:0;
+}
+header{
+	text-align:center;
+	float:left;
+	width:100%;
+	background-color:orange;
+	margin-bottom:1rem;
+}
+nav ul li{
+	display:inline;
+}
+nav ul li a{
+	background-color:red;
+	padding:0.5rem;
+	color:blue;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background-color:blue;
+	color:red;
+}
+
+
+main{
+	padding:1rem;
+	
+}
+img.feature{
+	float:right;
+	border:1px solid black;
+	margin-left:0.8rem;
+}
+main h1{
+	text-transform:uppercase;
+	margin-bottom:1rem;
+	border-bottom:1px solid #000;
+}
+
+aside{
+	background-color:orange;
+	float:left;
+	width:30%;
+	padding:0.3rem;
+	border:1px solid black;
+	margin-right:1rem;
+}
+footer{
+	clear:both;
+	width:100%;
+	background-color:orange;
+	padding:1rem 0 1rem 0;
+}
+footer p{
+	margin-left:1rem;
+	margin:0;
+	padding:0;
+	margin-left:1rem;
+}
+
+form div{
+	margin-bottom:1rem;
+}
