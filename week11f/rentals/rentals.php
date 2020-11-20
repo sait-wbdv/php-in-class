@@ -4,7 +4,7 @@ include('includes/config.php');
 $vehicle = '';
 $vehicles = [];
 
-if (isset($_GET['id']) && $_GET['id']) {
+if (isset($_GET['id']) && (int)$_GET['id'] > 0) {
   // *******************
   // Fetch one
   // GET '/vehicles/:id'
